@@ -1,54 +1,30 @@
-<header>
+TRONBOT 自助兑币机/能量租赁
+波场TRON能量租赁机器人、TRX能量自助租赁、TRX自助兑币机、自助兑换TRX、TRX兑换、能量转账api、波场能量api，地址激活，能量速充。
+Go 语言轻量级实现，支持跨平台，高并发。
+私有化部署方便，一行命令即可部署。
+能量租赁，TRX兑换功能二合一，同时支持归集/速充/激活/托管/笔数。
+不依赖机器人交互，任何场景下，客户只要知道您收款地址，转 U 立回 TRX（可选），转 TRX 立回能量。
+支持设定条件才可发送能量，多个条件支持自定义，详见配置文件。
+支持无限添加转租地址，可自行招募。
+一个地址对应一个通知机器人，支持群/频道通知，可通知到多个群/频道。
+可自定义挂载多个消息底部按钮。
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+🔥[能量转租，自己收款地址，自定义价格]
+能量转租，有服务器请自行部署机器人，参考教程 👉 (教程) 。
+无服务器需要托管地址可 👉 自助开通 。
+🤝波场能量API接口、笔数API、能量速充API🔋
+提供API，调用接口，即可发送能量到指定TRC20地址，无需自己质押TRX（价格低至2.3TRX=65000）。
+现API已支持能量速充，适合自己有基础能量的客户，未恢复的能量快速帮你填满。
+导航站：https://www.chuhai01.com
+TRX能量兑换：https://www.trx.club
+trx能量租用：https://www.feee.co
+🔋能量闪租
+➡️ 2.5 TRX = 65000 免费转账1次
 
-# GitHub Pages
+➡️ 5 TRX = 131000 免费转账2次
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+例：转 2.5 个TRX 到下面地址，3秒后再去转U不扣TRX手续费
 
-</header>
+➡️ 下单地址： TXST8oxHzwxybPcKBDK9PwN19555555555
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
-
-## Step 1: Enable GitHub Pages
-
-_Welcome to GitHub Pages and Jekyll :tada:!_
-
-The first step is to enable GitHub Pages on this [repository](https://docs.github.com/en/get-started/quickstart/github-glossary#repository). When you enable GitHub Pages on a repository, GitHub takes the content that's on the main branch and publishes a website based on its contents.
-
-### :keyboard: Activity: Enable GitHub Pages
-
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Under your repository name, click **Settings**.
-1. Click **Pages** in the **Code and automation** section.
-1. Ensure "Deploy from a branch" is selected from the **Source** drop-down menu, and then select `main` from the **Branch** drop-down menu.
-1. Click the **Save** button.
-1. Wait about _one minute_ then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-   > Turning on GitHub Pages creates a deployment of your repository. GitHub Actions may take up to a minute to respond while waiting for the deployment. Future steps will be about 20 seconds; this step is slower.
-   > **Note**: In the **Pages** of **Settings**, the **Visit site** button will appear at the top. Click the button to see your GitHub Pages site.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+🌈 查币机|交易监控
